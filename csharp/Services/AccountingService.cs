@@ -54,7 +54,10 @@ namespace Sample.Api.Services.Accounting
                     InvoiceDate = i.InvoiceDate,
                     TotalAmount = i.TotalAmount,
                     Status = i.Status,
-                    CreatedDate = i.CreatedDate
+                    CreatedDate = i.CreatedDate,
+                    // Add other fields as needed
+                    // e.g. Number, CustomerEmail, etc.
+                    exportDate = i.ExportedDate,
                 })
                 .ToList();
 
