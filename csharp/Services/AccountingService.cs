@@ -54,6 +54,7 @@ namespace Sample.Api.Services.Accounting
                     InvoiceDate = i.InvoiceDate,
                     TotalAmount = i.TotalAmount,
                     Status = i.Status,
+                    CreatedDate = i.CreatedDate
                 })
                 .ToList();
 
