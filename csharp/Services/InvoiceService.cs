@@ -57,8 +57,6 @@ namespace Sample.Api.Services.Accounting
                     CreatedDate = i.CreatedDate,
                     // Add other fields as needed
                     // e.g. Number, CustomerEmail, etc.
-                    ExportedDate = i.ExportedDate,
-                    ExportedBy = i.ExportedBy
                 })
                 .ToList();
 
